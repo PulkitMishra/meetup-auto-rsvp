@@ -35,3 +35,5 @@ This generated `groups.json` has the groups that you want to auto-RSVP.
 ``` shell
 python3 rsvp.py 
 ```
+
+### Proposed Solution has been tested only on `Ubuntu 19.10` and with Python 3.7.4
