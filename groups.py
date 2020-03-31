@@ -13,7 +13,7 @@ def group_store(groupList):
 	sel_grp = json.dumps([groups[i - 1].__dict__ for x in groupList])
 
 	#stores selected groups in json
-    with open('selected_groups.json', "w") as f:
+    with open('groups.json', "w") as f:
         f.seek(0)
         f.write(sel_grp)
         f.truncate()

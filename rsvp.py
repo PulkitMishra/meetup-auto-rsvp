@@ -28,10 +28,10 @@ def get_rsvped_events_string():
     return eventList
 
 
-#reads the selected_groups.json file created by setup_configs and parses the list of Groups
+#reads the groups.json file created by groups.py and parses the list of Groups
 def get_selected_groups():
 
-    with open('selected_groups.json', "r") as f:
+    with open('groups.json', "r") as f:
         f.seek(0)
         groupList = f.read()
 
