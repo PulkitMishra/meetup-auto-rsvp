@@ -3,6 +3,7 @@
 ## Problem Statement
 
 Language: Any
+
 Must work in: Linux
 
 This task is relatively simple (in theory), but it will help us assess your code organization abilities.
@@ -34,5 +35,3 @@ This generated `groups.json` has the groups that you want to auto-RSVP.
 ``` shell
 python3 rsvp.py 
 ```
-
-### Proposed Solution has been tested only on `Ubuntu 19.10` and with Python 3.7.4
